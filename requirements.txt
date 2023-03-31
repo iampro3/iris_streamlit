@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 numpy
 pandas
 matplotlib
@@ -5,6 +6,7 @@ seaborn
 scikit-learn
 plotly
 streamlit
+
 
 # 주요 라이브러리를 넣고 하기 명령어를 vs 코드 를 열어서
 # 입력하면 위의 라이브러리들이 한 번에 설치된다.
