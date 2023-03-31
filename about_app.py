@@ -12,7 +12,7 @@ import seaborn as sns
 
 def run_about_app():
 
-    st.subheader("소개 페이지 입니다")
+    st.subheader("Sunny.Cho's Bigdata Study : 소개 페이지 입니다")
 
     # image
     image = Image.open('data/flo2.jpg')
