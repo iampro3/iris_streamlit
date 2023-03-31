@@ -2,7 +2,7 @@
 import streamlit as st
 from eda_app import run_eda_app
 from home_app import run_home_app
-#from about_app import run_about_app
+from about_app import run_about_app
 from ml_app import run_ml_app
 
 import datetime
@@ -24,7 +24,7 @@ def main():
         run_ml_app()
     else:
         st.subheader("About")
-        #run_about_app()
+        run_about_app()
 
 
 
