@@ -11,7 +11,7 @@ import seaborn as sns
 
 def run_home_app():
 
-    st.subheader("Sunny.Cho's Bigdata Analysis Study Home")
+    st.subheader("Welcome Sunny.Cho's Bigdata Analysis Study Home")
     d = st.date_input(
         "Today datetime",
         datetime.date(2023, 3, 6))
