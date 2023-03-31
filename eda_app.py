@@ -13,7 +13,7 @@ def run_eda_app():
     st.subheader("탐색적 자료 분석 페이지입니다")
     
     #데이터셋 불러오기
-    iris_df = pd.read_csv('data\iris.csv')
+    iris_df = pd.read_csv('data/iris.csv')
     #st.dataframe(iris_df)
 
     # 메뉴지정
