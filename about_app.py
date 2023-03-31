@@ -52,10 +52,13 @@ def run_about_app():
     #color = st.color_picker('색상 선택')
     #st.write(color)
 
-    st.image(image, caption='Java & 빅데이터 과정 커리큘럼')
+    st.image(image, caption='Java & 빅데이터 과정 커리큘럼 1')
     image = Image.open('data/info0.jpg')
+    st.image(image, caption='Java & 빅데이터 과정 커리큘럼 2')
     image = Image.open('data/info1.jpg')
+    st.image(image, caption='Java & 빅데이터 과정 커리큘럼 3')
     image = Image.open('data/info2.jpg')
+    st.image(image, caption='Java & 빅데이터 과정 커리큘럼 4')
     image = Image.open('data/info3.jpg')
     
    
