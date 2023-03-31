@@ -49,7 +49,13 @@ def run_about_app():
             disabled=st.session_state.disabled,
     )
         
-    color = st.color_picker('색상 선택')
-    st.write(color)
+    #color = st.color_picker('색상 선택')
+    #st.write(color)
+
+    st.image(image, caption='Java & 빅데이터 과정 커리큘럼)
+    image = Image.open('data/info0.jpg')
+    image = Image.open('data/info1.jpg')
+    image = Image.open('data/info2.jpg')
+    image = Image.open('data/info3.jpg')
     
    
