@@ -15,8 +15,7 @@ def main():
     menu = ["Home", "탐색적 자료분석", "머신러닝", "About"]
     choice = st.sidebar.selectbox("메뉴", menu)
 
-    if choice == "Sunny.Cho's Bigdata Analysis Study Home":
-        
+    if choice == "Sunny.Cho's Bigdata Analysis Study Home":        
         #st.subheader("Home")
         run_home_app()
 
